@@ -1,4 +1,0 @@
-# oracle
-firstRespositor
-
-HELLO mf
