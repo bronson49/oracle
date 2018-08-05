@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--<style>-->
+        <!--* {-->
+            <!--box-sizing: border-box;-->
+        <!--}-->
+        <!--.container {-->
+            <!--max-width: 960px;-->
+            <!--margin: 0 auto;-->
+            <!--height: 300px;-->
+            <!--background: green;-->
+            <!--padding: 30px;-->
+
+            <!--display: flex;-->
+            <!--justify-content: space-around;-->
+            <!--flex-wrap: wrap;-->
+        <!--}-->
+        <!--.container > div {-->
+            <!--width: 40%;-->
+            <!--height: 100px;-->
+            <!--background: yellow;-->
+        <!--}-->
+
+        <!--@media (min-width: 480px) AND (max-width: 640px){-->
+            <!--.container > div {-->
+                <!--width: 100%;-->
+            <!--}-->
+        <!--}-->
+    <!--</style>-->
+
+    <style>
+        div {
+            margin: 100px auto;
+            width: 600px;
+        }
+        li {
+            display: inline-block;
+            padding: 15px;
+            margin: 0 10px;
+            position: relative;
+            text-align: center;
+        }
+        li:before, li:after {
+            content: '';
+            width: 50%;
+            bottom: 0;
+            position: absolute;
+            height: 2px;
+            background: black;
+            display: none;
+            left: 0;
+        }
+        li:after {
+            background: orange;
+            left: 50%;
+        }
+        li:hover:before,li:hover:after {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li><a href="#">Lorem.</a></li>
+            <li><a href="#">Error Lorem.</a></li>
+            <li><a href="#">Accusamus! Lorem ipsum dolor.</a></li>
+        </ul>
+    </div>
+
+    <!--<div class="container">-->
+        <!--<div class="left"></div>-->
+        <!--<div class="right"></div>-->
+    <!--</div>-->
+
+    <!--<video style="width: 100%; height: auto;" controls="controls" autoplay poster="https://www.segodnya.ua/img/article/11351/41_main_new.1525260925.jpg">-->
+        <!--<source src="videoplayback.mp4">-->
+        <!--Тег video не поддерживается вашим браузером.-->
+        <!--<a href="video/duel.mp4">Скачайте видео</a>.-->
+    <!--</video>-->
+
+<!--<form action="success.html" method="get">-->
+    <!--<input required type="number" name="number" min="1" max="10" step="2">-->
+    <!--<input type="email" name="email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">-->
+    <!--<select multiple name="" id="">-->
+        <!--<option value="">Выбор 1</option>-->
+        <!--<option value="">Выбор 2</option>-->
+        <!--<option value="">Выбор 3</option>-->
+    <!--</select>-->
+
+    <!--<input list="eat" placeholder="Какой у вас город">-->
+    <!--<datalist id="eat">-->
+        <!--<option value="Киев">-->
+        <!--<option value="Днепр">-->
+        <!--<option value="Львов">-->
+    <!--</datalist>-->
+
+    <!--<input type="submit">-->
+<!--</form>-->
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background: #ff9cb7;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+ul {
+
+}
+li {
+
+    display: inline-block;
+}
+
+@media (max-width: 1000px) {
+    li {display: block;}
+    div {background: #fff55a}
+}
