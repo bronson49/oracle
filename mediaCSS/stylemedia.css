@@ -9,14 +9,17 @@ a {
     font-size: 20px;
 }
 ul {
-
+   
 }
 li {
 
-    display: inline-block;
+   display: inline-block;
 }
-
+p {
+	display: none;
+}
 @media (max-width: 1000px) {
     li {display: block;}
-    div {background: #fff55a}
+    div {background: #fff55a;}
+    p {display: block;}
 }
